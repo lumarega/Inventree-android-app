@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Inventree</string>
+    <string name="new_inventory">New Inventory</string>
+    <string name="inventory_identification">Inventory Identification:</string>
+    <string name="area">Area(m2):</string>
+    <string name="date">Date:</string>
+    <string name="parcels_area">Parcels Area(m2):</string>
+    <string name="inline_space">Inline Space(m):</string>
+    <string name="between_line_space">Between Line Space(m):</string>
+    <string name="plantation_date">Plantation Date:</string>
+    <string name="species">Species:</string>
+    <string name="save">Save:</string>
+    <string name="new_parcel">New Parcel:</string>
+    <string name="parcel_identification">Parcel Identification:</string>
+    <string name="trees_quantity">Trees Quantity:</string>
+    <string name="notes">Notes:</string>
+    <string name="add_tree">Add Tree</string>
+    <string name="tree_identification">Tree Identification:</string>
+    <string name="tree_height">Tree Height(m):</string>
+    <string name="cap">CAP(cm):</string>
+    <string name="dap">DAP(cm):</string>
+    <string name="no_inventory_found">no inventory registered</string>
+    <string name="no_parcel_found">no parcel registered</string>
+    <string name="no_tree_found">no tree registered</string>
+    <string name="parcels">Parcels</string>
+    <string name="area_wood_volume">Area wood volume(m3):</string>
+    <string name="tree_wood_volume">tree wood volume(m3):</string>
+    <string name="parc_wood_volume">Average Wood Volume(m3):</string>
+
+</resources>

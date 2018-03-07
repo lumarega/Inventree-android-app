@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_parcel"
+        android:textSize="22dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/parcel_identification"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:id="@+id/et_parcel_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.25"
+            android:text="@string/trees_quantity"
+            android:textSize="18dp"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/et_trees_quantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/notes"
+            android:textSize="18dp"
+            android:textColor="#000" />
+
+        <EditText
+            android:id="@+id/et_parcel_notes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.63"
+            android:ems="10"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_save_parcel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8d8"
+        android:text="@string/save"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

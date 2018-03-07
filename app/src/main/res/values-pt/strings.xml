@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Inventree</string>
+    <string name="new_inventory">Cadastrar Inventário</string>
+    <string name="inventory_identification">Identificação do iInventário:</string>
+    <string name="area">Area(m2):</string>
+    <string name="date">Data:</string>
+    <string name="parcels_area">Área das Parcelas(m2):</string>
+    <string name="inline_space">Espaço em linha(m):</string>
+    <string name="between_line_space">Espaço entre linha(m):</string>
+    <string name="plantation_date">Data de plantio:</string>
+    <string name="species">Espécie:</string>
+    <string name="save">Salvar</string>
+    <string name="new_parcel">Cadastrar Parcela:</string>
+    <string name="parcel_identification">Identificação da parcela:</string>
+    <string name="trees_quantity">quantidade de árvores:</string>
+    <string name="notes">notas:</string>
+    <string name="add_tree">Cadastrar árvore</string>
+    <string name="tree_identification">Identificação da árvore:</string>
+    <string name="tree_height">altura(m):</string>
+    <string name="cap">CAP(cm):</string>
+    <string name="dap">DAP(cm):</string>
+    <string name="no_inventory_found">nenhum inventário cadastrado</string>
+    <string name="no_parcel_found">nenhuma parcela cadastrada</string>
+    <string name="no_tree_found">nenhuma árvore cadastrada</string>
+    <string name="parcels">Parcelas</string>
+    <string name="area_wood_volume">Volume da área(m3):</string>
+    <string name="tree_wood_volume">Volume da árvore(m3):</string>
+    <string name="parc_wood_volume">Volume médio de madeira(m3):</string>
+
+</resources>
